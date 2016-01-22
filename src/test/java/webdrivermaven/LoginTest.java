@@ -19,7 +19,7 @@ public class LoginTest {
 	public void doLogin() {
 		driver.get("https://www.facebook.com/");
 		
-		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("kapilan_wcc@yahoo.com");
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("kapilan@yahoo.com");
 		
 		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("ffff");
 		
