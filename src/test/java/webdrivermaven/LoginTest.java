@@ -25,7 +25,7 @@ public class LoginTest {
 		
 		driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
 		
-		
+		System.out.println("test");
 			
 	}
 	@AfterSuite
